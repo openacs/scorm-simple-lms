@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="scorm-simple-lms" locale="en_US" charset="ISO-8859-1">
+              
+<msg key="Action">Action</msg>
+<msg key="Administer">Administer</msg>
+<msg key="Available_Courses">Available Courses</msg>
+<msg key="browse">browse</msg>
+<msg key="Courses">Courses</msg>
+<msg key="Course_Name">Course Name</msg>
+<msg key="Creation_Date">Creation Date</msg>
+<msg key="edit_properties">edit properties</msg>
+<msg key="Edit_Properties_For">Edit Properties For Course</msg>
+<msg key="Mode">Mode</msg>
+<msg key="normal">normal</msg>
+<msg key="offline">offline</msg>
+<msg key="online">online</msg>
+<msg key="Status">Status</msg>
+<msg key="Upload_New_Course">Upload New Course</msg>
+
+</message_catalog>
