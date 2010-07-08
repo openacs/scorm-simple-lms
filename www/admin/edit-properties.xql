@@ -4,11 +4,10 @@
 
   <fullquery name="get_course_properties">
     <querytext>
-      select cf.label as title, sc.online, sc.default_lesson_mode
-      from scorm_courses sc, cr_folders cf, cr_items ci
+      select o.title, sc.online, sc.default_lesson_mode
+      from scorm_courses sc, acs_objects o
       where sc.scorm_course_id = :id
-        and sc.folder_id = cf.folder_id
-        and cf.folder_id = ci.item_id
+        and o.object_id = sc.scorm_course_id
     </querytext>
   </fullquery>
 

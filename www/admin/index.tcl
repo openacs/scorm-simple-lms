@@ -39,6 +39,12 @@ template::list::create \
               <a href="@courses.edit_properties_url@" class="button">
                 #scorm-simple-lms.edit_properties#
               </a>
+              <a href="@courses.upload_new_version_url@" class="button">
+                #scorm-simple-lms.upload_new_version#
+              </a>
+              <a href="@courses.delete_url@" class="button">
+                #scorm-simple-lms.delete_course#
+              </a>
             }
         }
     } -orderby {
@@ -60,10 +66,13 @@ template::list::create \
         }
     }
     
-db_multirow -extend {url edit_properties_url mode status toggle_online_url toggle_status} \
+db_multirow -extend {url edit_properties_url delete_url upload_new_version_url 
+                     mode status toggle_online_url toggle_status} \
     courses get_courses {} {
     set url [export_vars -base [ad_conn package_url]scorm-player/player id]
     set edit_properties_url [export_vars -base edit-properties id]
+    set delete_url [export_vars -base delete-course id]
+    set upload_new_version_url [export_vars -base upload-new-version id]
     set mode \
         [expr {$default_lesson_mode eq "browse" ? [_ scorm-simple-lms.browse] : [_ scorm-simple-lms.normal]}]
     set status \

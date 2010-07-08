@@ -8,13 +8,19 @@
 <msg key="Courses">Courses</msg>
 <msg key="Course_Name">Course Name</msg>
 <msg key="Creation_Date">Creation Date</msg>
+<msg key="delete_course">delete course</msg>
+<msg key="Delete_Course">Delete Course</msg>
 <msg key="edit_properties">edit properties</msg>
 <msg key="Edit_Properties_For">Edit Properties For Course</msg>
 <msg key="Mode">Mode</msg>
+<msg key="No">No</msg>
 <msg key="normal">normal</msg>
 <msg key="offline">offline</msg>
 <msg key="online">online</msg>
+<msg key="Really_Delete_Course">Really Delete Course "%course_title%"?</msg>
 <msg key="Status">Status</msg>
 <msg key="Upload_New_Course">Upload New Course</msg>
+<msg key="upload_new_version">upload new version</msg>
+<msg key="Yes">Yes</msg>
 
 </message_catalog>
