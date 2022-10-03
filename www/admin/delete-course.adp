@@ -1,6 +1,6 @@
 <master />
-<property name="title">@title;noquote@</property>
-<property name="context">@context;noquote@</property>
+<property name="title">@title;literal@</property>
+<property name="context">@context;literal@</property>
 
 <h1>#scorm-simple-lms.Really_Delete_Course#</h1>
 
